@@ -1,18 +1,11 @@
 import React from "react";
+import Header from "../../components/Header";
 
 const AlterarEmail = () => {
     return (
 
         <div class="container">
-            <nav>
-                <ul>
-                    <img src="../assets/img/MIDALL NOVOb.png" class="imagem" />
-                    <li><a href="/sistema/clipping">Clipping de Email</a></li>
-                    <li><a href="/sistema/gerenc_assoc">Gerenciar Associados</a></li>
-                    <li><a href="/sistema/cadastro_assoc">Cadastrar Associados</a></li>
-                    <img src="../assets/img/MIDALL NOVOb.png" class="imagem1" />
-                </ul>
-            </nav>
+            <Header />
             <section class="alterar_emails">
                 <div class="column">
                     <div class="title">

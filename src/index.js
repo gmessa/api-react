@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import Login from './pages/Login';
-import CadastroAssoc from './pages/CadastroAssoc';
-import AlterarAssoc from './pages/AlterarAssoc';
-import AlterarEmail from './pages/AlterarEmail';
+import Rotas from './rotas';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <AlterarEmail/>
+  <Rotas/>
 );
 //ReactDOM.render(<Login />, document.getElementById('root'))
 

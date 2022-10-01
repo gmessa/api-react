@@ -1,20 +1,12 @@
 import React from "react";
+import Header from "../../components/Header";
+
 
 const CadastroAssoc = () => {
     return (
 
         <div className="container">
-            <div class="container">
-                <nav>
-                    <ul>
-                        <img src="../assets/img/MIDALL NOVOb.png" class="imagem" />
-                        <li><a href="/sistema/clipping">Clipping de Email</a></li>
-                        <li><a href="/sistema/gerenc_assoc">Gerenciar Associados</a></li>
-                        <li><a href="/sistema/cadastro_assoc">Cadastrar Associados</a></li>
-                        <img src="../assets/img/MIDALL NOVOb.png" class="imagem1" />
-                    </ul>
-                </nav>
-            </div>
+            <Header />
             <section class="cadastro_user">
                 <div class="coluna">
                     <h1 class="gradient">Cadastrar Associados</h1>
@@ -29,7 +21,7 @@ const CadastroAssoc = () => {
                                 <br />
                                 <div class="info_lado">
                                     <input type="date" placeholder="Data de Nascimento" name="nasc" required />
-                                    <img class="logo3" src="../assets/img/logo3.jpg"></img>
+                                    <img class="logo3" alt="logo3" src="../assets/img/logo3.jpg"></img>
                                     <input type="text" placeholder="CEP" name="cep" required />
                                 </div>
                                 <br />
@@ -47,7 +39,7 @@ const CadastroAssoc = () => {
                                     <option value="Solteiro(a)">Solteiro(a)</option>
                                     <option value="Viúvo(a)">Viúvo(a)</option>
                                 </select>
-                                <img class="logo3" src="../assets/img/logo3.jpg"></img>
+                                <img class="logo3" alt="logo3" src="../assets/img/logo3.jpg"></img>
                                 <input type="text" name="inst_ens" placeholder="Instituição de Ensino" required></input>
                             </div>
                             <div class="info_email">
