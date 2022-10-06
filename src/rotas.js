@@ -1,10 +1,14 @@
 import React from 'react';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 
+
 import Login from './pages/Login';
 import AlterarAssoc from './pages/AlterarAssoc';
 import AlterarEmail from './pages/AlterarEmail';
 import CadastroAssoc from './pages/CadastroAssoc';
+import Clipping from './pages/Clipping';
+import GerencAssoc from './pages/GerencAssoc';
+
 
 export default function Rotas() {
   return(
@@ -15,8 +19,9 @@ export default function Rotas() {
        <Route path='/AlterAssoc' element={<AlterarAssoc/>} />
        <Route path='/AlterEmail' element={<AlterarEmail/>} />
        <Route path='/CadAssoc' element={<CadastroAssoc/>} />
+       <Route path='/Clipping' element={<Clipping/>} />
+       <Route path='/GerAssoc' element={<GerencAssoc/>} />
       </Routes>
     </BrowserRouter>
   )
-
 };

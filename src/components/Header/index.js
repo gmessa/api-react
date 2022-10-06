@@ -8,7 +8,7 @@ function Header(){
         <nav>
             <ul>
                 <img alt="novob" src="../assets/img/MIDALL NOVOb.png" class="imagem" />
-                <li><Link to="/AlterEmail">Clipping de Email</Link></li>
+                <li><Link to="/Clipping">Clipping de Email</Link></li>
                 <li><Link to="/AlterAssoc">Gerenciar Associados</Link></li>
                 <li><Link to="/CadAssoc">Cadastrar Associados</Link></li>
                 <img alt="lnovob" src="../assets/img/MIDALL NOVOb.png" class="imagem1" />
