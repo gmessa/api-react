@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { renderMatches } from "react-router-dom";
 import Header from "../../components/Header";
 
-let pdfDoc = [['Felipe','http://www.africau.edu/images/default/sample.pdf'],['Gustavo','https://biblioteca.ibge.gov.br/visualizacao/livros/liv100643.pdf']]
+
+let pdfDoc = [['Felipe','../../pdfs/teste.pdf'],['Gustavo','https://biblioteca.ibge.gov.br/visualizacao/livros/liv100643.pdf']]
 let names = []
 let pdfs = []
  
@@ -9,12 +11,12 @@ const Pdf = () => {
   names = [];
   pdfs = [];
   pdfDoc.forEach(
-    data => {names.push(<a href={data[1]} target="_blank" rel="noreferrer"><button>abrir</button><br></br></a>);pdfs.push(<span>{data[0]}<br></br> </span>)}
-    
+    data => {pdfs.push(<a href="./verpdf" target="_blank" rel="noreferrer"><button>abrir</button><br></br></a>);names.push(<span>{data[0]}<br></br> </span>)},
   ) 
-
   return (
+    
     <div className="container">
+      
       <div class="container">
         <Header />
       </div>
@@ -40,6 +42,7 @@ const Pdf = () => {
     </div>  
     
   )
+  
 };
 
 

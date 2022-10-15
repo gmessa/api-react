@@ -8,6 +8,7 @@ import CadastroAssoc from './pages/CadastroAssoc/antigo';
 import Clipping from './pages/Clipping';
 import GerencAssoc from './pages/GerencAssoc';
 import Pdf from './pages/Pdf';
+import VerPdf from './pages/Pdf/verpdf';
 
 export default function Rotas() {
   return(
@@ -21,6 +22,7 @@ export default function Rotas() {
        <Route path='/clip' element={<Clipping/>} />
        <Route path='/gerencassoc' element={<GerencAssoc/>} />
        <Route path='/pdf' element={<Pdf/>} />
+	   <Route path='/verpdf' element={<VerPdf/>} />
       </Routes>
     </BrowserRouter>
   )
